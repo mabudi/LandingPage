@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: #F7F3ED;
+}
+header {
+    display: flex;
+    flex-grow: 0;
+    height: 18.62vh;
+    justify-content: space-between;
+}
+.tres-pontos-menu {
+    padding: 50px;
+    justify-self: center;
+    justify-content: center;
+    justify-items: flex-end;
+    vertical-align: bottom;
+    height: 20px;
+    width: 25px;
+}
+.loja-style {
+    padding: 50px;
+    display: flex;
+    justify-items: flex-end;
+    justify-self: center;
+    vertical-align: bottom;
+}
+.loja-style>h5 {
+    color: #FC0027;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 62.74vh;
+}
+.conteudo1 {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items:flex-end;
+    text-align: center;
+    vertical-align: bottom;
+    margin-left: 50px;
+}
+.made-brasil {
+    margin-right: 50px;
+}
+
+.card-titulo {
+    font-size:xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+}
+.destauqe-titulo {
+    font-size:xx-large;
+    vertical-align: bottom;
+}
+.conteudo2 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+footer {
+    flex-grow: 0;
+    height: 18.62vh;
+}
+.color1 {
+    color: #F7F3ED;
+    background-color: #F7F3ED;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.color2 {
+    color: #FEBE26;
+    background-color: #FEBE26;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.color3 {
+    color: #FE672E;
+    background-color: #FE672E;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.color4 {
+    color: #F52D3A;
+    background-color: #F52D3A;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.color5 {
+    color: #D02467;
+    background-color: #D02467;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.color6 {
+    color: #710965;
+    background-color: #710965;
+    flex-direction: column;
+    flex-grow: 1;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+/* .oitenta {
+    max-resolution: ;
+} */
+.oitentas-logo {
+    margin-left: 50px;
+    height: 150px;
+    width: 100px;
+}
+.direitos {
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 50px;
+    color: rgb(168, 168, 168);
+}
